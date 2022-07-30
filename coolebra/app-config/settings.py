@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'coolebra.urls'
+ROOT_URLCONF = 'app-config.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'coolebra.wsgi.application'
+WSGI_APPLICATION = 'app-config.wsgi.application'
 
 
 # Database
